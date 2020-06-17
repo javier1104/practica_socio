@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies{
+    implementation 'postgresql:postgresql:9.0-801.jdbc4'
+
+        testImplementation 'junit:junit:4.12'
+}
